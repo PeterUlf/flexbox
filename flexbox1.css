@@ -1,0 +1,30 @@
+.container {
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.box1,
+.box2,
+.box3 {
+    /*    width: 33%;*/
+}
+
+.box {}
+
+.box1 {
+    border: 2px solid black;
+    padding: 2px;
+    background-color: #ff0000;
+}
+
+.box2 {
+    border: 2px solid black;
+    padding: 2px;
+    background-color: #008000;
+}
+
+.box3 {
+    border: 2px solid black;
+    padding: 2px;
+    background-color: #0000ff;
+}
