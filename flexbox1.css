@@ -1,6 +1,10 @@
 .container {
     border: 2px solid black;
     padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .box1,
@@ -9,22 +13,28 @@
     /*    width: 33%;*/
 }
 
-.box {}
+.box {
+    /*        flex-grow: 1;*/
+    flex-basis: 300px;
+}
 
 .box1 {
     border: 2px solid black;
     padding: 2px;
     background-color: #ff0000;
+    /*    flex-basis: 300px;*/
 }
 
 .box2 {
     border: 2px solid black;
     padding: 2px;
     background-color: #008000;
+    /*    flex-basis: 300px;*/
 }
 
 .box3 {
     border: 2px solid black;
     padding: 2px;
     background-color: #0000ff;
+    /*    flex-basis: 300px;*/
 }
